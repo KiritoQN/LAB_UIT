@@ -1,0 +1,4 @@
+COMPONENT=Lab4AppC
+PFLAGS += -I$(TOSROOT)/tos/lib/printf
+PFLAGS += -DNEW_PRINTF_SEMANTICS
+include $(MAKERULES)
